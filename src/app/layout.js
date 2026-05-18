@@ -7,13 +7,13 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Cryonex | Premium Climate Control Systems for Mobile Living",
-  description: "Professional-grade refrigeration, ventilation, and climate systems engineered for vans, RVs, and off-grid living. Cryonex delivers comfort in every climate.",
-  keywords: "cryonex, climate control, van refrigeration, RV ventilation, compressor fridge, roof ventilation, skylight, mobile living, off-grid, van conversion, camper van, climate systems",
-  authors: [{ name: "Cryonex Climate Systems" }],
+  title: "Vantrix | Metal · Power · Van Parts Outlet",
+  description: "Industrial-grade LiFePO4 storage, electric and manual awnings, pure sine inverters, and swivel hardware for serious van builds. Built in Big Bear, California.",
+  keywords: "vantrix, van parts, LiFePO4 battery, van conversion, awning, pure sine inverter, swivel table, off-grid, sprinter, transit, promaster, van build, 600ah battery",
+  authors: [{ name: "Vantrix · Van Parts Outlet" }],
   openGraph: {
-    title: "Cryonex | Premium Climate Control Systems for Mobile Living",
-    description: "Professional-grade climate solutions engineered for exceptional performance in mobile environments",
+    title: "Vantrix | Metal · Power · Van Parts Outlet",
+    description: "Industrial-grade LiFePO4 storage, electric and manual awnings, pure sine inverters, and swivel hardware for serious van builds.",
     type: "website",
   },
 };
@@ -22,13 +22,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/fav-icon3.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/fav-icon3.png" />
-        <meta                                                                                                                                                                                                                                                                                                                                                                                                                                                                          name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favi.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/favi.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body
-        className={`${inter.variable} font-sans antialiased bg-[#0a0a0a]`}
-      >
+      <body className={`${inter.variable} font-sans antialiased bg-[#0a0a0a]`}>
         {children}
       </body>
     </html>
