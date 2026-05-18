@@ -1442,15 +1442,15 @@ export default function VantrixPage() {
 
   {/* Bottom stat strip */}
   <motion.div
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ delay: 0.6, duration: 0.8 }}
-    className="absolute bottom-0 inset-x-0 z-10 backdrop-blur-md"
-    style={{
-      background: 'rgba(0,0,0,0.55)',
-      borderTop: `1px solid ${COLORS.darkRule}`,
-    }}
-  >
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.6, duration: 0.8 }}
+  className="hidden md:block absolute bottom-0 inset-x-0 z-10 backdrop-blur-md"
+  style={{
+    background: 'rgba(0,0,0,0.55)',
+    borderTop: `1px solid ${COLORS.darkRule}`,
+  }}
+>
     <div className="max-w-[1480px] mx-auto px-6 lg:px-12 py-6 grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-10">
       {[
         { num: '7.2', suf: ' kWh', label: 'Single Block' },
